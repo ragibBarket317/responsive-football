@@ -97,3 +97,66 @@ body{
     font-weight: 700;
     margin-bottom: 5px;
 }
+
+/*--------------------------------
+    gallery-section
+ ------------------------------- */
+ .player-gallery{
+     padding: 40px 0;
+ }
+ .section-title{
+     font-size: 42px;
+     margin-bottom: 20px;
+ }
+ .image-gallery{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+ }
+ .gallery img{
+     width: 364px;
+     height: 370px;
+ }
+
+ /*------------------------------------------
+     highlight-section 
+ --------------------------------------------*/
+ .highlight{
+     padding-bottom: 80px;
+ }
+ .text-area h2{
+     font-size: 42px;
+     margin-bottom: 10px;
+ }
+ .text-area p{
+     width: 400px;
+     margin-bottom: 15px;
+ }
+ .text-area .btn:hover{
+    background-color: black;
+ }
+
+ /* -----------------------------------------
+    footer-section
+ ------------------------------------------- */
+  .footer-image{
+      text-align: center;
+  }
+ .footer-image img{
+     width: 227px;
+     height: 67px;
+ }
+ .social-icon{
+     text-align: center;
+ }
+  .social-icon a{
+      font-size: 18px;
+      margin-left: 2px;
+      padding: 3px 6px;
+      color:grey;
+      background-color: #e7e7e8;
+      border-radius: 15px;
+  }
+  .copyright{
+      margin-top: 20px;
+      text-align: center;
+  }
