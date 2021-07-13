@@ -1,0 +1,99 @@
+/*---------------------------------------------------------------
+    Assignment Name: Responsiv Football
+    Author Name: Ragib Barket
+---------------------------------------------------------------*/
+
+/*--------------------
+      fonts
+ ------------------ */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+ /*-------------------- 
+     common-uses
+ ------------------- */
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ a{
+     text-decoration: none;
+ }
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/*----------------------------
+ header-section
+ ----------------------------- */
+ .football{
+     background-color: #2d25a0;
+     color: #fff;
+ }
+ .copa-football{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 60px 0;
+ }
+ .text-area h1{
+     font-size: 64px;
+     margin-bottom: 20px;
+ }
+ .text-area button{
+     background-color: #e02c6d;
+     border: 0;
+     padding: 10px 24px;
+     transition: background-color 0.5s;
+ }
+ .text-area button:hover{
+     background-color: transparent;
+     border: 2px solid #e02c6d;
+ }
+ .text-area button a{
+     color: #fff;
+     margin-right: 10px;
+     font-size: 16px;
+ }
+ .text-area button .arrow{
+     color: #fff;
+ }
+.poster-image img{
+    width: 556px;
+    height: 438px;
+}
+
+/*---------------------------------- 
+    players-section 
+-----------------------------------*/
+.player-section{
+    padding: 80px 0;
+}
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player{
+    width: 330px;
+    height: 475px;
+    box-shadow: 2px 2px 30px grey;
+}
+.player .player-image{
+    text-align: center;
+}
+.player .player-image img{
+    width: 95%;
+    margin-top: 10px;
+}
+.player-info h3,p{
+    margin-left: 10px;
+}
+.player-info h3{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
